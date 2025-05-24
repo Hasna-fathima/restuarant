@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import food1 from '../assets/burger.jpg';
 import food2 from '../assets/pizza.jpg';
 import food3 from '../assets/salad.jpg';
@@ -25,7 +25,7 @@ const Menu = () => {
   const [selected, setSelected] = useState<'meat' | 'veg'>('meat');
 
   return (
-    <div className="min-h-screen bg-black text-white px-4 md:px-20 py-10 backdrop-blur-lg bg-opacity-80">
+    <div className="min-h-screen bg-black text-white px-4 md:px-20 py-10 backdrop-blur-lg bg-opacity-80" id='menu'>
     
       <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8 gap-4">
 

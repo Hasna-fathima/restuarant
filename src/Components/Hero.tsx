@@ -12,7 +12,7 @@ const foodImages = [food1, food2, food3, food4, food5, food6, food7];
 
 const Hero = () => {
   return (
-    <section className="bg-[#111] bg-opacity-80 backdrop-blur-sm px-4 py-8 max-w-7xl mx-auto " id="/">
+    <section className="bg-[#111] bg-opacity-80 backdrop-blur-sm px-4 py-8 max-w-7xl mx-auto min-h-screen " id="/">
       <div className="flex flex-col items-center justify-between gap-y-8 md:gap-y-12">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
