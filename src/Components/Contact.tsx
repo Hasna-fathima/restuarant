@@ -6,7 +6,8 @@ import Footer from './Footer';
 
 const Contact: React.FC = () => {
   return (
-    <div className="bg-[#111] bg-opacity-80 backdrop-blur-sm px-6 py-4 max-w-7xl mx-auto mb-24" id='contact'>
+  <div className="bg-[#111] bg-opacity-80 backdrop-blur-sm px-6 py-4 max-w-7xl mx-auto min-h-screen flex flex-col justify-between" id="contact">
+
       <h1 className="text-center text-orange-500 m-3 font-bold text-4xl mb-10 mt-10">
         WE'D <span className="text-white m-3 underline">LOVE TO HEAR</span> FROM YOU!
       </h1>
